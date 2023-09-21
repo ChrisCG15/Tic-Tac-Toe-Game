@@ -41,7 +41,7 @@ function play(event) {
   }
 }
 
-// Function to update the turn display
+// To update the turn display
 function updateTurnDisplay() {
   const turnDisplay = document.querySelector("p span");
   turnDisplay.textContent = "Turn: " + currentPlayer;
@@ -86,12 +86,12 @@ function checkWin(player) {
   return false;
 }
 
-// Function to check for a draw
+// To check for a draw
 function checkDraw() {
   return gameBoard.every((row) => row.every((cell) => cell !== ""));
 }
 
-// Function to end the game and display a message
+//  To end the game and display a message
 function endGame(message) {
   gameActive = false;
   document.querySelector("p span").textContent = message;
@@ -99,7 +99,7 @@ function endGame(message) {
   setTimeout(resetGame, 10000);
 }
 
-// Function to reset the game
+//  To reset the game
 function resetGame() {
   gameActive = true;
   currentPlayer = PlayerX;
