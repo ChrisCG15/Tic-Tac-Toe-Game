@@ -47,7 +47,7 @@ function updateTurnDisplay() {
   turnDisplay.textContent = "Turn: " + currentPlayer;
 }
 
-// Function to check for a win
+// To check for a win
 function checkWin(player) {
   // Check rows
   for (let row = 0; row < 3; row++) {
@@ -112,7 +112,7 @@ function resetGame() {
     });
   });
 
-  // Clear the end game message
+  
   document.querySelector("p span").textContent = "Turn: " + currentPlayer;
 }
 
