@@ -29,13 +29,13 @@ To run this game, you need a modern web browser that supports HTML5, CSS3, and J
 
 1. Clone this repository to your local machine:
 
-   ```bash
-   git clone https://github.com/yourusername/tic-tac-toe.git
+   **bash
+   git clone https://github.com/ChrisCG15/Tic-Tac-Toe-Game.git
    
 
 2. Navigate to the project directory:
 
-   ```bash
+   **bash
    cd tic-tac-toe
    
 
