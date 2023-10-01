@@ -47,11 +47,8 @@ p {
   text-align: center;
   color: white;
 }
-css
-Copy code
-/* Add this CSS to your stylesheet or in a <style> tag in the HTML head */
 #countdown {
-  font-size: 18px; /* Adjust the font size as needed */
-  font-weight: bold; /* Make the text bold if desired */
-  margin-top: 10px; /* Add margin to separate it from other content */
+  font-size: 18px; 
+  font-weight: bold;
+  margin-top: 10px; 
 }
